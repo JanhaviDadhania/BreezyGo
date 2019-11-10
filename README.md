@@ -1,5 +1,7 @@
 # BreezyGo
 
+<p align="center"> <img width="500" src="breezygo.jpg"> </p>
+
 BreezyGo is search engine like google for all tourism related searches.
 
 # Installation Guide :
