@@ -1,0 +1,7 @@
+<uniqueKey>id</uniqueKey>
+<!-- Fields added for books.csv load-->
+<field name="cat" type="text_general" indexed="true" stored="true"/>
+<field name="name" type="text_general" indexed="true" stored="true"/>
+<field name="price" type="tdouble" indexed="true" stored="true"/>
+<field name="inStock" type="boolean" indexed="true" stored="true"/>
+<field name="author" type="text_general" indexed="true" stored="true"/>

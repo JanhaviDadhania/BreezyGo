@@ -1,0 +1,345 @@
+2019-10-23 15:37:16.071 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2019-10-23 15:37:16.345 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.3.1
+2019-10-23 15:37:16.345 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-10-23 15:37:16.345 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/janhavi/Downloads/solr-7.3.1
+2019-10-23 15:37:16.356 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-10-23T15:37:16.346Z
+2019-10-23 15:37:16.357 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2019-10-23 15:37:16.407 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/janhavi/Downloads/solr-7.3.1/server/solr
+2019-10-23 15:37:16.425 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/janhavi/Downloads/solr-7.3.1/server/solr/solr.xml
+2019-10-23 15:37:17.016 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /home/janhavi/Downloads/solr-7.3.1/server/solr
+2019-10-23 15:37:17.101 INFO  (main) [   ] o.e.j.s.Server Started @1783ms
+2019-10-23 15:38:26.916 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=44
+2019-10-23 15:38:26.981 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=9
+2019-10-23 15:38:26.995 INFO  (qtp434091818-18) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-10-23 15:38:26.996 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=nutch&action=STATUS&wt=json} status=0 QTime=1
+2019-10-23 15:38:27.015 INFO  (qtp434091818-18) [   ] o.a.s.h.a.CoreAdminOperation core create command name=nutch&action=CREATE&instanceDir=nutch&wt=json
+2019-10-23 15:38:27.059 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader [nutch] Added 57 libs to classloader, from paths: [/home/janhavi/Downloads/solr-7.3.1/contrib/clustering/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/extraction/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/langid/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/velocity/lib, /home/janhavi/Downloads/solr-7.3.1/dist]
+2019-10-23 15:38:27.190 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.3.1
+2019-10-23 15:38:27.271 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.ManagedIndexSchemaFactory The schema is configured as managed, but managed schema resource managed-schema not found - loading non-managed schema schema.xml instead
+2019-10-23 15:38:27.297 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.IndexSchema [nutch] Schema name=nutch
+2019-10-23 15:38:27.336 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieIntField]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.339 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieFloatField]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.341 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.343 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieDoubleField]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.349 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieDateField]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.352 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.359 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.372 WARN  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2019-10-23 15:38:27.491 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.IndexSchema Loaded schema nutch/1.5 with uniqueid field id
+2019-10-23 15:38:27.509 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/janhavi/Downloads/solr-7.3.1/server/solr/nutch/conf/managed-schema
+2019-10-23 15:38:27.549 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.ManagedIndexSchemaFactory After upgrading to managed schema, renamed the non-managed schema /home/janhavi/Downloads/solr-7.3.1/server/solr/nutch/conf/schema.xml to /home/janhavi/Downloads/solr-7.3.1/server/solr/nutch/conf/schema.xml.bak
+2019-10-23 15:38:27.550 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.CoreContainer Creating SolrCore 'nutch' using configuration from instancedir /home/janhavi/Downloads/solr-7.3.1/server/solr/nutch, trusted=true
+2019-10-23 15:38:27.591 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-10-23 15:38:27.596 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.SolrCore [[nutch] ] Opening new SolrCore at [/home/janhavi/Downloads/solr-7.3.1/server/solr/nutch], dataDir=[/home/janhavi/Downloads/solr-7.3.1/server/solr/nutch/data/]
+2019-10-23 15:38:27.778 INFO  (qtp434091818-18) [   x:nutch] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-10-23 15:38:28.068 INFO  (qtp434091818-18) [   x:nutch] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-10-23 15:38:28.068 INFO  (qtp434091818-18) [   x:nutch] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-10-23 15:38:28.081 INFO  (qtp434091818-18) [   x:nutch] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-10-23 15:38:28.082 INFO  (qtp434091818-18) [   x:nutch] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-10-23 15:38:28.100 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.SolrIndexSearcher Opening [Searcher@126b3b26[nutch] main]
+2019-10-23 15:38:28.110 INFO  (qtp434091818-18) [   x:nutch] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/janhavi/Downloads/solr-7.3.1/server/solr/nutch/conf
+2019-10-23 15:38:28.127 INFO  (qtp434091818-18) [   x:nutch] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-10-23 15:38:28.133 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-10-23 15:38:28.145 INFO  (qtp434091818-18) [   x:nutch] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-10-23 15:38:28.226 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@126b3b26[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-10-23 15:38:28.226 INFO  (qtp434091818-18) [   x:nutch] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1648199056203186176
+2019-10-23 15:38:28.226 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-10-23 15:38:28.226 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-10-23 15:38:28.233 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.SolrCore [nutch] Registered new searcher Searcher@126b3b26[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-10-23 15:38:28.234 INFO  (qtp434091818-18) [   x:nutch] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=nutch&action=CREATE&instanceDir=nutch&wt=json} status=0 QTime=1218
+2019-10-23 15:39:02.564 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:39:02.572 INFO  (qtp434091818-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=6
+2019-10-23 15:39:02.592 INFO  (qtp434091818-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=11
+2019-10-23 15:46:36.733 INFO  (qtp434091818-38) [   x:nutch] o.a.s.u.p.LogUpdateProcessorFactory [nutch]  webapp=/solr path=/update params={wt=javabin&version=2}{delete=[https://www.apache.org/dist/nutch/1.9/CHANGES.txt (-1648199568433610752), https://t.co/k3VLhbJQhg (-1648199568438853632), https://builds.apache.org/view/M-R/view/Nutch/ (-1648199568438853633)]} 0 27
+2019-10-23 15:46:36.744 INFO  (qtp434091818-20) [   x:nutch] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1648199568450387968,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-10-23 15:46:36.744 INFO  (qtp434091818-20) [   x:nutch] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3dcc4005 commitCommandVersion:1648199568450387968
+2019-10-23 15:46:36.859 INFO  (qtp434091818-20) [   x:nutch] o.a.s.s.SolrIndexSearcher Opening [Searcher@8528f16[nutch] main]
+2019-10-23 15:46:36.864 INFO  (qtp434091818-20) [   x:nutch] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-10-23 15:46:36.864 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@8528f16[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-10-23 15:46:36.865 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-10-23 15:46:36.866 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.SolrCore [nutch] Registered new searcher Searcher@8528f16[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-10-23 15:46:36.867 INFO  (qtp434091818-20) [   x:nutch] o.a.s.u.p.LogUpdateProcessorFactory [nutch]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 123
+2019-10-23 15:46:36.874 INFO  (qtp434091818-38) [   x:nutch] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1648199568586702848,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-10-23 15:46:36.875 INFO  (qtp434091818-38) [   x:nutch] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2019-10-23 15:46:36.876 INFO  (qtp434091818-38) [   x:nutch] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-10-23 15:46:36.876 INFO  (qtp434091818-38) [   x:nutch] o.a.s.u.p.LogUpdateProcessorFactory [nutch]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 3
+2019-10-23 15:49:30.286 INFO  (qtp434091818-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:49:30.291 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1571845770275&since=0} status=0 QTime=2
+2019-10-23 15:49:30.300 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=12
+2019-10-23 15:49:36.373 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:49:36.379 INFO  (qtp434091818-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1571845142404} status=0 QTime=2
+2019-10-23 15:49:36.381 INFO  (qtp434091818-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=6
+2019-10-23 15:49:36.425 INFO  (qtp434091818-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:49:36.428 INFO  (qtp434091818-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:49:36.435 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=9
+2019-10-23 15:50:44.154 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:50:44.158 INFO  (qtp434091818-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1571845844149} status=0 QTime=0
+2019-10-23 15:50:44.174 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=18
+2019-10-23 15:50:46.044 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:50:46.057 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=11
+2019-10-23 15:50:46.063 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1571845846038} status=0 QTime=14
+2019-10-23 15:51:02.842 INFO  (qtp434091818-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:02.847 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 15:51:02.849 INFO  (qtp434091818-13) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1571845862834} status=0 QTime=1
+2019-10-23 15:51:02.851 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=8
+2019-10-23 15:51:02.853 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1571845142405&ts=1571845142405} status=503 QTime=2
+2019-10-23 15:51:02.859 INFO  (qtp434091818-35) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1571845862834} status=0 QTime=10
+2019-10-23 15:51:09.495 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:09.499 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1571845862833} status=0 QTime=1
+2019-10-23 15:51:09.503 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=7
+2019-10-23 15:51:18.467 INFO  (qtp434091818-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:18.472 INFO  (qtp434091818-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={wt=json&_=1571845878460} status=0 QTime=1
+2019-10-23 15:51:18.479 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=10
+2019-10-23 15:51:18.503 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1571845878460} status=0 QTime=0
+2019-10-23 15:51:27.062 INFO  (qtp434091818-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:27.093 INFO  (qtp434091818-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=30
+2019-10-23 15:51:27.109 INFO  (qtp434091818-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1571845887057} status=0 QTime=43
+2019-10-23 15:51:30.815 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:30.818 INFO  (qtp434091818-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1571845887057} status=0 QTime=0
+2019-10-23 15:51:30.823 INFO  (qtp434091818-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=6
+2019-10-23 15:51:30.853 INFO  (qtp434091818-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:30.856 INFO  (qtp434091818-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1571845887057} status=0 QTime=0
+2019-10-23 15:51:30.862 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=7
+2019-10-23 15:51:32.626 INFO  (qtp434091818-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:32.631 INFO  (qtp434091818-35) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1571845862833} status=0 QTime=1
+2019-10-23 15:51:32.636 INFO  (qtp434091818-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=8
+2019-10-23 15:51:34.270 INFO  (qtp434091818-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:34.274 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 15:51:34.276 INFO  (qtp434091818-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1571845862834} status=0 QTime=0
+2019-10-23 15:51:34.281 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=9
+2019-10-23 15:51:34.283 INFO  (qtp434091818-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1571845142405&ts=1571845142405} status=503 QTime=0
+2019-10-23 15:51:34.288 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1571845862834} status=0 QTime=7
+2019-10-23 15:51:38.072 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:38.078 INFO  (qtp434091818-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=5
+2019-10-23 15:51:43.477 INFO  (qtp434091818-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:43.480 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 15:51:43.487 INFO  (qtp434091818-35) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/config params={wt=json&_=1571845903449} status=0 QTime=6
+2019-10-23 15:51:43.487 INFO  (qtp434091818-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=8
+2019-10-23 15:51:43.523 INFO  (qtp434091818-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 15:51:47.182 INFO  (qtp434091818-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:47.186 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/segments params={wt=json&_=1571845907178} status=0 QTime=0
+2019-10-23 15:51:47.193 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=9
+2019-10-23 15:51:49.021 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:49.025 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={wt=json&_=1571845878460} status=0 QTime=0
+2019-10-23 15:51:49.038 INFO  (qtp434091818-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=14
+2019-10-23 15:51:49.046 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1571845878460} status=0 QTime=0
+2019-10-23 15:51:53.099 INFO  (qtp434091818-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:51:53.105 INFO  (qtp434091818-39) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1571845862833} status=0 QTime=2
+2019-10-23 15:51:53.109 INFO  (qtp434091818-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=8
+2019-10-23 15:56:32.570 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 15:56:32.578 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1571845887057} status=0 QTime=6
+2019-10-23 15:56:32.583 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=12
+2019-10-23 16:04:18.668 INFO  (qtp434091818-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 16:04:18.674 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=5
+2019-10-23 16:04:18.682 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=5
+2019-10-23 16:35:42.731 ERROR (qtp434091818-13) [   x:nutch] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field _text_
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1292)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:434)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:84)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:191)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:240)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:518)
+	at org.apache.solr.parser.QueryParser.newFieldQuery(QueryParser.java:62)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:1148)
+	at org.apache.solr.parser.QueryParser.MultiTerm(QueryParser.java:593)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:142)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-23 16:35:42.731 INFO  (qtp434091818-13) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/query params={q=hello+world} status=400 QTime=16
+2019-10-23 16:36:22.514 ERROR (qtp434091818-13) [   x:nutch] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field _text_
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1292)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:434)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:84)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:191)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:240)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:518)
+	at org.apache.solr.parser.QueryParser.newFieldQuery(QueryParser.java:62)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:1077)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:800)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-23 16:36:22.514 INFO  (qtp434091818-13) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/query params={q=IIT} status=400 QTime=1
+2019-10-23 17:59:31.631 INFO  (qtp434091818-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:31.634 INFO  (qtp434091818-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 17:59:31.635 INFO  (qtp434091818-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1571845862834} status=0 QTime=0
+2019-10-23 17:59:31.639 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1571845142405&ts=1571845142405} status=503 QTime=0
+2019-10-23 17:59:31.640 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=8
+2019-10-23 17:59:31.646 INFO  (qtp434091818-49) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1571845862834} status=0 QTime=6
+2019-10-23 17:59:31.890 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:31.893 INFO  (qtp434091818-49) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 17:59:31.899 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=7
+2019-10-23 17:59:35.138 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:35.147 INFO  (qtp434091818-14) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={wt=json&_=1571845878460} status=0 QTime=1
+2019-10-23 17:59:35.155 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=12
+2019-10-23 17:59:35.176 INFO  (qtp434091818-51) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1571845878460} status=0 QTime=1
+2019-10-23 17:59:42.777 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:42.780 INFO  (qtp434091818-51) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={wt=json&_=1571845878460} status=0 QTime=0
+2019-10-23 17:59:42.785 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=6
+2019-10-23 17:59:42.796 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1571845878460} status=0 QTime=1
+2019-10-23 17:59:49.474 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:49.477 INFO  (qtp434091818-49) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1571845862834} status=0 QTime=0
+2019-10-23 17:59:49.480 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=5
+2019-10-23 17:59:52.372 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:52.375 INFO  (qtp434091818-51) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1571845862833} status=0 QTime=1
+2019-10-23 17:59:52.376 INFO  (qtp434091818-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/config params={wt=json&_=1571845903449} status=0 QTime=0
+2019-10-23 17:59:52.380 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=7
+2019-10-23 17:59:52.424 INFO  (qtp434091818-49) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 17:59:55.640 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:55.644 INFO  (qtp434091818-49) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/segments params={wt=json&_=1571845907178} status=0 QTime=0
+2019-10-23 17:59:55.651 INFO  (qtp434091818-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=8
+2019-10-23 17:59:57.691 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 17:59:57.704 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1571845887057} status=0 QTime=8
+2019-10-23 17:59:57.705 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=11
+2019-10-23 18:00:03.669 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:03.672 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1571845887057} status=0 QTime=0
+2019-10-23 18:00:03.677 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=6
+2019-10-23 18:00:03.707 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:03.711 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1571845887057} status=0 QTime=0
+2019-10-23 18:00:03.716 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=7
+2019-10-23 18:00:03.949 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:03.951 INFO  (qtp434091818-49) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1571845887057} status=0 QTime=0
+2019-10-23 18:00:03.956 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=6
+2019-10-23 18:00:03.987 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:03.992 INFO  (qtp434091818-51) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1571845887057} status=0 QTime=0
+2019-10-23 18:00:03.999 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=9
+2019-10-23 18:00:21.056 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:21.059 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1571845770275&since=0} status=0 QTime=0
+2019-10-23 18:00:21.063 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=5
+2019-10-23 18:00:25.975 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:25.983 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1571845770275} status=0 QTime=5
+2019-10-23 18:00:25.984 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=8
+2019-10-23 18:00:39.051 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:39.053 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1571845844149} status=0 QTime=0
+2019-10-23 18:00:39.057 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=5
+2019-10-23 18:00:42.687 INFO  (qtp434091818-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:00:42.691 INFO  (qtp434091818-51) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1571845862833} status=0 QTime=0
+2019-10-23 18:00:42.694 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1571845862834} status=0 QTime=0
+2019-10-23 18:00:42.697 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=7
+2019-10-23 18:00:42.699 INFO  (qtp434091818-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1571845142405&ts=1571845142405} status=503 QTime=0
+2019-10-23 18:00:42.705 INFO  (qtp434091818-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1571845862834} status=0 QTime=6
+2019-10-23 18:03:15.415 INFO  (qtp434091818-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571845142404} status=0 QTime=0
+2019-10-23 18:03:15.416 INFO  (qtp434091818-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/segments params={wt=json&_=1571845907178} status=0 QTime=0
+2019-10-23 18:03:15.422 INFO  (qtp434091818-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571845142405} status=0 QTime=6
+2019-10-23 18:03:32.536 INFO  (qtp434091818-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571853812377} status=0 QTime=0
+2019-10-23 18:03:32.540 INFO  (qtp434091818-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/segments params={wt=json&_=1571853812529} status=0 QTime=1
+2019-10-23 18:03:32.547 INFO  (qtp434091818-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571853812378} status=0 QTime=8
+2019-10-23 19:00:56.363 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571853812377} status=0 QTime=0
+2019-10-23 19:00:56.375 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571853812378} status=0 QTime=9
+2019-10-23 19:00:56.384 INFO  (qtp434091818-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571853812378} status=0 QTime=5
+2019-10-23 19:01:08.391 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571853812377} status=0 QTime=0
+2019-10-23 19:01:08.394 INFO  (qtp434091818-55) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1571857268377} status=0 QTime=0
+2019-10-23 19:01:08.399 INFO  (qtp434091818-55) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1571857268378} status=0 QTime=1
+2019-10-23 19:01:08.402 INFO  (qtp434091818-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571853812378} status=0 QTime=9
+2019-10-23 19:01:08.403 INFO  (qtp434091818-54) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1571853812378&ts=1571853812378} status=503 QTime=0
+2019-10-23 19:01:08.407 INFO  (qtp434091818-13) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1571857268378} status=0 QTime=8
+2019-10-23 19:01:16.976 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571853812377} status=0 QTime=0
+2019-10-23 19:01:16.985 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571853812378} status=0 QTime=6
+2019-10-23 19:01:16.998 INFO  (qtp434091818-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571853812378} status=0 QTime=9
+2019-10-23 19:01:53.772 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571857313609} status=0 QTime=0
+2019-10-23 19:01:53.780 INFO  (qtp434091818-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571857313610} status=0 QTime=6
+2019-10-23 19:01:53.791 INFO  (qtp434091818-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571857313610} status=0 QTime=6
+2019-10-24 06:20:50.231 INFO  (qtp434091818-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571857313609} status=0 QTime=0
+2019-10-24 06:20:50.234 INFO  (qtp434091818-54) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1571898050221} status=0 QTime=0
+2019-10-24 06:20:50.235 INFO  (qtp434091818-45) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1571898050222} status=0 QTime=0
+2019-10-24 06:20:50.238 INFO  (qtp434091818-55) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1571857313610&ts=1571857313610} status=503 QTime=0
+2019-10-24 06:20:50.240 INFO  (qtp434091818-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571857313610} status=0 QTime=7
+2019-10-24 06:20:50.250 INFO  (qtp434091818-13) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1571898050221} status=0 QTime=12
+2019-10-24 06:22:45.087 INFO  (qtp434091818-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571857313609} status=0 QTime=0
+2019-10-24 06:22:45.093 INFO  (qtp434091818-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571857313610} status=0 QTime=5
+2019-10-29 15:47:40.743 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=173099767
+2019-10-29 15:47:40.751 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-10-29 15:47:40.752 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-10-29 15:47:40.752 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-10-29 15:47:40.769 INFO  (coreCloseExecutor-12-thread-1) [   x:nutch] o.a.s.c.SolrCore [nutch]  CLOSING SolrCore org.apache.solr.core.SolrCore@6294355c
+2019-10-29 15:47:40.770 INFO  (coreCloseExecutor-12-thread-1) [   x:nutch] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.nutch, tag=1653880156

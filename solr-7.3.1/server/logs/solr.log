@@ -1,0 +1,76 @@
+2019-11-04 05:04:47.208 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2019-11-04 05:04:47.504 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.3.1
+2019-11-04 05:04:47.504 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-11-04 05:04:47.505 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/janhavi/Downloads/solr-7.3.1
+2019-11-04 05:04:47.515 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-11-04T05:04:47.506Z
+2019-11-04 05:04:47.516 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2019-11-04 05:04:47.534 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/janhavi/Downloads/solr-7.3.1/server/solr
+2019-11-04 05:04:47.540 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/janhavi/Downloads/solr-7.3.1/server/solr/solr.xml
+2019-11-04 05:04:48.070 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath /home/janhavi/Downloads/solr-7.3.1/server/solr
+2019-11-04 05:04:48.071 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [nutch, jcg]
+2019-11-04 05:04:48.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-11-04 05:04:48.118 INFO  (main) [   ] o.e.j.s.Server Started @1315ms
+2019-11-04 05:04:48.144 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader [nutch] Added 57 libs to classloader, from paths: [/home/janhavi/Downloads/solr-7.3.1/contrib/clustering/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/extraction/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/langid/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/velocity/lib, /home/janhavi/Downloads/solr-7.3.1/dist]
+2019-11-04 05:04:48.144 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.c.SolrResourceLoader [jcg] Added 57 libs to classloader, from paths: [/home/janhavi/Downloads/solr-7.3.1/contrib/clustering/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/extraction/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/langid/lib, /home/janhavi/Downloads/solr-7.3.1/contrib/velocity/lib, /home/janhavi/Downloads/solr-7.3.1/dist]
+2019-11-04 05:04:48.303 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.3.1
+2019-11-04 05:04:48.319 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.3.1
+2019-11-04 05:04:48.405 WARN  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2019-11-04 05:04:48.434 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.s.IndexSchema [nutch] Schema name=nutch
+2019-11-04 05:04:48.456 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.s.IndexSchema [jcg] Schema name=default-config
+2019-11-04 05:04:48.461 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieDateField]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.464 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieDoubleField]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.466 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieFloatField]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.470 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieIntField]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.474 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.484 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.535 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.541 WARN  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2019-11-04 05:04:48.649 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.s.IndexSchema Loaded schema nutch/1.5 with uniqueid field id
+2019-11-04 05:04:48.660 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.CoreContainer Creating SolrCore 'nutch' using configuration from instancedir /home/janhavi/Downloads/solr-7.3.1/server/solr/nutch, trusted=true
+2019-11-04 05:04:48.700 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-11-04 05:04:48.705 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.c.SolrCore [[nutch] ] Opening new SolrCore at [/home/janhavi/Downloads/solr-7.3.1/server/solr/nutch], dataDir=[/home/janhavi/Downloads/solr-7.3.1/server/solr/nutch/data/]
+2019-11-04 05:04:48.734 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-11-04 05:04:48.817 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-11-04 05:04:48.853 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.c.CoreContainer Creating SolrCore 'jcg' using configuration from instancedir /home/janhavi/Downloads/solr-7.3.1/server/solr/jcg, trusted=true
+2019-11-04 05:04:48.854 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-11-04 05:04:48.854 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.c.SolrCore [[jcg] ] Opening new SolrCore at [/home/janhavi/Downloads/solr-7.3.1/server/solr/jcg], dataDir=[/home/janhavi/Downloads/solr-7.3.1/server/solr/jcg/data/]
+2019-11-04 05:04:49.012 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-11-04 05:04:49.032 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-11-04 05:04:49.032 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-11-04 05:04:49.056 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-11-04 05:04:49.056 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-11-04 05:04:49.062 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-11-04 05:04:49.062 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-11-04 05:04:49.062 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-11-04 05:04:49.062 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-11-04 05:04:49.108 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.s.SolrIndexSearcher Opening [Searcher@5c855e06[nutch] main]
+2019-11-04 05:04:49.108 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.s.SolrIndexSearcher Opening [Searcher@ca29c55[jcg] main]
+2019-11-04 05:04:49.123 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/janhavi/Downloads/solr-7.3.1/server/solr/nutch/conf
+2019-11-04 05:04:49.123 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/janhavi/Downloads/solr-7.3.1/server/solr/jcg/conf
+2019-11-04 05:04:49.141 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-11-04 05:04:49.141 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-11-04 05:04:49.147 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-11-04 05:04:49.148 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-11-04 05:04:49.162 INFO  (coreLoadExecutor-6-thread-1) [   x:nutch] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-11-04 05:04:49.162 INFO  (coreLoadExecutor-6-thread-2) [   x:jcg] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-11-04 05:04:49.242 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5c855e06[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-11-04 05:04:49.242 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@ca29c55[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-11-04 05:04:49.242 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-11-04 05:04:49.242 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-11-04 05:04:49.242 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-11-04 05:04:49.242 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-11-04 05:04:49.246 INFO  (searcherExecutor-7-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.SolrCore [nutch] Registered new searcher Searcher@5c855e06[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-11-04 05:04:49.246 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore [jcg] Registered new searcher Searcher@ca29c55[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-11-04 05:04:51.589 INFO  (qtp434091818-19) [   x:jcg] o.a.s.u.p.LogUpdateProcessorFactory [jcg]  webapp=/solr path=/update/json/docs params={}{add=[c6cbaa5f-8f4b-40a2-921f-ee8ce9886b70 (1649246356388184064), d1a371ab-15fb-444a-b705-c80906cd6c42 (1649246356423835648), 077ac464-9bbd-4acb-b45a-185892fc1dae (1649246356424884224), a8ad1eb8-db7f-4ac4-a36e-057cefe8420a (1649246356425932800), 102bce54-c980-458d-9a88-3eba7155a3df (1649246356425932801), ce271bf0-f370-49aa-b8f6-ee56cd190a1d (1649246356426981376), 336a8270-880f-4f31-a765-50a5fcc8b2f2 (1649246356426981377), 5b368bf4-e5f1-4503-9f2a-8a913f52bb4a (1649246356428029952), cb3b91c2-d4d9-4e89-a214-f2a323a25717 (1649246356429078528), 5d7ccd63-a380-49fc-9f70-bdb52086e2d3 (1649246356429078529), ... (83 adds)]} 0 107
+2019-11-04 05:04:51.600 INFO  (qtp434091818-21) [   x:jcg] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1649246356477313024,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-11-04 05:04:51.600 INFO  (qtp434091818-21) [   x:jcg] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@455da85e commitCommandVersion:1649246356477313024
+2019-11-04 05:04:52.197 INFO  (qtp434091818-21) [   x:jcg] o.a.s.s.SolrIndexSearcher Opening [Searcher@16e3c860[jcg] main]
+2019-11-04 05:04:52.199 INFO  (qtp434091818-21) [   x:jcg] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-11-04 05:04:52.199 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@16e3c860[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.1):C83)))}
+2019-11-04 05:04:52.199 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-11-04 05:04:52.200 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore [jcg] Registered new searcher Searcher@16e3c860[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.1):C83)))}
+2019-11-04 05:04:52.200 INFO  (qtp434091818-21) [   x:jcg] o.a.s.u.p.LogUpdateProcessorFactory [jcg]  webapp=/solr path=/update params={commit=true}{commit=} 0 601
+2019-11-04 05:04:56.821 INFO  (qtp434091818-21) [   x:jcg] o.a.s.c.S.Request [jcg]  webapp=/solr path=/select params={q=*:*&rows=1616&_=1572843650222} hits=83 status=0 QTime=43
+2019-11-04 05:05:42.251 INFO  (qtp434091818-15) [   x:jcg] o.a.s.c.S.Request [jcg]  webapp=/solr path=/select params={q=*:*&title:NutchTutorial+-+NUTCH+-+Apache+Software+Foundation=&rows=1616&_=1572843650222} hits=83 status=0 QTime=2
+2019-11-04 05:05:54.201 INFO  (qtp434091818-21) [   x:jcg] o.a.s.c.S.Request [jcg]  webapp=/solr path=/select params={q=*:*&title:NutchTutorial+-+NUTCH+-+Apacoftware+Foundation=&rows=1616&_=1572843650222} hits=83 status=0 QTime=0
+2019-11-04 05:05:56.325 INFO  (qtp434091818-15) [   x:jcg] o.a.s.c.S.Request [jcg]  webapp=/solr path=/select params={q=*:*&title:NutchTutorial+-+NUTCH+-+Apacoftware+Foundation=&rows=1616&_=1572843650222} hits=83 status=0 QTime=0
