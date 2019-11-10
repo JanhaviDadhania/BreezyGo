@@ -1,1 +1,1 @@
-This is search engine about torist places in india.
+BreezyGo is search engine about tourist places in india.
