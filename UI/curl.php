@@ -76,7 +76,7 @@ body {
 <body>
 
 <div class="topnav">
-  <a class="active" href="query_interface.html">Home</a>
+  <a class="active" href="query_interface.php">Home</a>
   <a href="about.txt">About</a>
   <div class="search-container">
     <form action="curl2.php" method='post'>
