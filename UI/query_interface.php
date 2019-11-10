@@ -20,7 +20,7 @@ body {
 
 .topnav input[type=text] {
   padding: 6px;
-  margin-top: 400px;
+  margin-top: 100px;
   font-size: 17px;
   border: none;
 }
@@ -28,7 +28,7 @@ body {
 .topnav .search-container button {
   float: center;
   padding: 6px 10px;
-  margin-top: 400px;
+  margin-top: 200px;
   margin-right: 16px;
   background: #ddd;
   font-size: 17px;
@@ -44,12 +44,25 @@ body {
 </head>
 <body>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
 <div class="topnav">
   <div class="search-container">
+  <img src="breezygo.jpg" width="300" height="275" title="Logo of a company" alt="Logo of a company" />
+
     <form action="serp.php" method="post">
       <input type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
+
   </div>
 </div>
 
