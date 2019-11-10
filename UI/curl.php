@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 /*echo <<<_END
 <form action="curl.php" method="post">
@@ -78,7 +79,7 @@ body {
   <a class="active" href="query_interface.html">Home</a>
   <a href="about.txt">About</a>
   <div class="search-container">
-    <form action="curl.php" method='post'>
+    <form action="curl2.php" method='post'>
       <input type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
@@ -89,13 +90,16 @@ body {
 
 
 _END;
-if(isset($_POST["search"])) {
+
+$post = $_SESSION['search'];
+
+//if(isset($_POST["search"])) {
     //echo $_POST["search"];
-}
-else {
-    echo "sorry no result.";
-}
-$variable=$_POST["search"];
+//}
+//else {
+    //echo "sorry no result.";
+//}
+$variable=$post;
 // From URL to get webpage contents.
 $url = "http://localhost:8983/solr/jcg/select?q=name:*$variable*&wt=json";
 
@@ -134,6 +138,11 @@ preg_match_all('#\bhttps?://[^,\s()<>]+(?:\([\w\d]+\)|([^,[:punct:]\s]|/))#', $o
 //echo "<pre>";
 //print_r($match[0]);
 //echo "</pre>";
+
+
+
+
+
 
 
 for($x=0;$x<count($match[0]);$x++) {
