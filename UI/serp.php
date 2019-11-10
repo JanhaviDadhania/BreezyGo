@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+
+session_start();
+$_SESSION['search']=$_POST['search'];
+
+
+
+echo <<<_END
 <html>
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,12 +76,21 @@ body {
   <a class="active" href="query_interface.html">Home</a>
   <a href="about.txt">About</a>
   <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
+    <form action="curl.php" method="post">
+      <input type="hidden" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </div>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <div class="d-flex justify-content-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Logging out...</span>
+            </div>
+      </div><script>setTimeout(function(){location.href="curl.php"}, 2000 );</script>';
+
 
 </body>
 </html>
+_END;
+?>
