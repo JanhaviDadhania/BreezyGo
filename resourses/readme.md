@@ -23,7 +23,7 @@ url: http://localhost:8983/solr/#/jcg/query
 Start solr using by typing ```$bin/solr start ```.
 
 ### to create solr core 
-Nevigate /solr-7.3.1 folder <br/>
+Navigate /solr-7.3.1 folder <br/>
 Create solr core using command  <br/><br/>
 ```$ bin/solr create -c <name>```
 <br/><br/>
@@ -42,7 +42,7 @@ On executing this command spider will crawl and store all the url in links.json 
 
 If you crawl the urls then you should index it as well so that the data can be displayed in BreezyGo.
 
-<br/><br/>Nevigate to solr-7.3.1.  We now have to do indexing.<br/><br/>
+<br/><br/>Navigate to solr-7.3.1.  We now have to do indexing.<br/><br/>
 Type the following command in terminal.<br/><br/>
 ```$bin/post -c NAME_OF_SOLR_CORE mycrawler/crawler/l.json```
 
