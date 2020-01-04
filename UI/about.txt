@@ -1,1 +1,4 @@
-BreezyGo is search engine about tourist places in india.
+BreezyGo is small scale web search engine like google. It is designed for all travelling related search restricted to indian
+subcontinent area. It consist of basic crawler and indexer. Crawler or spider is written in scrapy and indexer used for the 
+project is solr.
+
