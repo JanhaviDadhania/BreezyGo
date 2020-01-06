@@ -4,6 +4,8 @@
 
 BreezyGo is search engine like google for all tourism related searches.
 
+[![HitCount](http://hits.dwyl.io/JanhaviDadhania/BreezyGo.svg)](http://hits.dwyl.io/JanhaviDadhania/BreezyGo)
+
 # Installation Guide :
 
 Clone the repo BreezyGo. <br/>
